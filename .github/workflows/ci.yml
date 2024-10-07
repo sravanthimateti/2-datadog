@@ -21,7 +21,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install -r requests pytest
+        pip install requests pytest
 
     - name: Run tests
       id: test
